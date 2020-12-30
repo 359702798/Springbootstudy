@@ -1,0 +1,9 @@
+
+S
+java:S1128"6Remove this unused import 'com.atguigu.boot.bean.Pet'.(°ÿí¾8Í¼•‹ë.
+V
+java:S1854"9Remove this useless assignment to local variable "names".(˜×©û8Í¼•‹ë.
+]	java:S125"<This block of commented-out lines of code should be removed.(ßƒëôùÿÿÿÿ8Í¼•‹ë.
+U	java:S106&"9Replace this use of System.out or System.err by a logger.(†œé°8Í¼•‹ë.
+G
+java:S1481"*Remove this unused "names" local variable.(˜×©û8Í¼•‹ë.
