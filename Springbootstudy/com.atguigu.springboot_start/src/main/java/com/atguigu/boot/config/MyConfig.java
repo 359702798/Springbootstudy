@@ -23,7 +23,8 @@ public class MyConfig {
 
     // @Bean//给容器中添加组件。以方法名作为组件得id,返回类型就是组件类型。
      //返回的值,就是在容器中的实例。
-    @ConditionalOnBean(name="pet01")//当容器中有pet01这个组件的时候,才会注入user组件。
+    //@ConditionalOnBean(name="pet01")//当容器中有pet01这个组件的时候,才会注入user组件。
+    @Bean
     public User user01(){
 
       return  new User("李四",11);
