@@ -16,7 +16,12 @@ import java.util.Map;
 public class RequestController {
 
     @RequestMapping("/goto")
-    public String gotoPage(HttpServletRequest request){
+    public String gotoPage(HttpServletRequest request,
+                           Map<String,String> map1){
+
+
+
+        map1.put("mymap","map存在于request域中");
 
         request.setAttribute("msg","成功了");
         request.setAttribute("code",200);
@@ -34,6 +39,8 @@ public class RequestController {
      Object msg1 = request.getAttribute("msg");
 
      Map<String,Object> map = new HashMap<>();
+
+        System.out.println(request.getAttribute("mymap")+"存在");
 
      map.put("request msg",msg1);
      map.put("annotion msg",msg);

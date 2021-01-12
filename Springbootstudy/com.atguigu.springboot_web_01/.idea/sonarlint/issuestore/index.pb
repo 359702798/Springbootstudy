@@ -5,3 +5,13 @@ m
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
 c
 3src/main/java/com/atguigu/boot/MainApplication.java,8\9\8909efd2c705b6c58a893251cee1cabbd6750153
+v
+Fsrc/main/java/com/atguigu/boot/controller/ParameterTestController.java,b\2\b24c7bfcc6abfbc58d170ffb578575ed9ef441d5
+p
+@src/main/java/com/atguigu/boot/controller/RequestController.java,d\0\d05a06e1369484d5009a2929f353aecd0d4a2f8c
+\
+,src/main/java/com/atguigu/boot/bean/Pet.java,8\9\8915af536e8b6f12998d776f089f3ca37a9178af
+_
+/src/main/java/com/atguigu/boot/bean/Person.java,8\0\80e3830265f3028f18c1071e2f37400f8b495f86
+u
+Esrc/main/java/com/atguigu/boot/controller/ResponseTestController.java,9\f\9fc8a36c5410f86746f769fe3707519d1524118a
