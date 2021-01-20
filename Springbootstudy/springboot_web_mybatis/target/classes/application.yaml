@@ -1,0 +1,19 @@
+#jdbc配置
+datasource:
+
+  driver-class-name: com.mysql.jdbc.Driver
+  url: jdbc:mysql://localhost:3306/springboot?useUnicode=true&characterEncoding=utf8
+  username: root
+  password: hechuan
+
+#mybatis配置
+mybatis:
+  #映射文件路径
+  mapper-locations: classpath:mapper/*.xml
+
+  # pagehelper
+  pagehelper:
+    helperDialect: mysql
+    reasonable: true
+    supportMethodsArguments: true
+    params: count=countSql
